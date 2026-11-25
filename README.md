@@ -3,7 +3,6 @@
 [![CI](https://github.com/JamieCrock/order-matching-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/JamieCrock/order-matching-engine/actions/workflows/ci.yml)
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![JUnit 5](https://img.shields.io/badge/tests-JUnit%205-green)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 This is a **limit order book and matching engine** in plain Java 21 with no runtime dependencies. It does the job an exchange does for a single instrument: accept buy and sell orders, match them by **price-time priority**, report trades and keep the book consistent.
 
@@ -116,7 +115,3 @@ src/test/java/...           # OrderBookTest, RandomisedEquivalenceTest + Referen
 - Self-trade prevention and participant ids
 - Stop and iceberg orders
 - An event-sourced journal so the book can be rebuilt by replaying its input
-
-## Licence
-
-MIT © 2026 Jamie Crockett
